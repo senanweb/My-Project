@@ -1,0 +1,12 @@
+C:\Users\test\Desktop\Learn-VB-2015\Form-1-welcome\Form-1-welcome\bin\Debug\Form-1-welcome.exe.config
+C:\Users\test\Desktop\Learn-VB-2015\Form-1-welcome\Form-1-welcome\bin\Debug\Form-1-welcome.exe
+C:\Users\test\Desktop\Learn-VB-2015\Form-1-welcome\Form-1-welcome\bin\Debug\Form-1-welcome.pdb
+C:\Users\test\Desktop\Learn-VB-2015\Form-1-welcome\Form-1-welcome\bin\Debug\Form-1-welcome.xml
+C:\Users\test\Desktop\Learn-VB-2015\Form-1-welcome\Form-1-welcome\obj\Debug\Form-1-welcome.vbprojResolveAssemblyReference.cache
+C:\Users\test\Desktop\Learn-VB-2015\Form-1-welcome\Form-1-welcome\obj\Debug\Form_1_welcome.Form1.resources
+C:\Users\test\Desktop\Learn-VB-2015\Form-1-welcome\Form-1-welcome\obj\Debug\Form_1_welcome.Resources.resources
+C:\Users\test\Desktop\Learn-VB-2015\Form-1-welcome\Form-1-welcome\obj\Debug\Form-1-welcome.vbproj.GenerateResource.Cache
+C:\Users\test\Desktop\Learn-VB-2015\Form-1-welcome\Form-1-welcome\obj\Debug\Form-1-welcome.exe
+C:\Users\test\Desktop\Learn-VB-2015\Form-1-welcome\Form-1-welcome\obj\Debug\Form-1-welcome.xml
+C:\Users\test\Desktop\Learn-VB-2015\Form-1-welcome\Form-1-welcome\obj\Debug\Form-1-welcome.pdb
+C:\Users\test\Desktop\Learn-VB-2015\Form-1-welcome\Form-1-welcome\obj\Debug\Form_1_welcome.Form2.resources

@@ -1,0 +1,38 @@
+------------------------
+----------------
+-----------
+#Information system
+-----------
+----------------
+------------------------
+#information for system
+$uname -a
+------------------------
+#Ip address show
+$ip add
+------------------------
+------------------------
+#Information for network
+$systemctl status NetworkManager.service
+------------------------
+# to get permission root
+$ cd /
+------------------------
+#restart system
+$shutdown -r now
+------------------------
+#For view folder
+$ls
+$ls -l
+$ls -la
+
+
+
+
+
+
+
+
+
+
+

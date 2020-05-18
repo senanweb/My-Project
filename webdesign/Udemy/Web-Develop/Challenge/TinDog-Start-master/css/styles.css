@@ -1,0 +1,51 @@
+body {
+  font-family: 'Montserrat';
+}
+/* title */
+#title {
+  background: #ff4c68;
+  color: #fff;
+  height: 350px;
+}
+/* title */
+/* ////////////// */
+/* Navbar */
+.navbar {
+  padding: 0 0 2em;
+}
+.navbar-brand {
+  font-family: 'Teko', sans-serif;
+  font-size: 1.5em;
+}
+.nav-item {
+  padding: 0 20px;
+}
+.nav-link {
+  font-size: 1.2em;
+}
+/* ////////////// */
+/* container-fluid */
+.container-fluid {
+  padding: 3% 15%;
+}
+.myimg {
+  height: 50%;
+  width: 50%;
+  transform: rotate(45deg);
+  margin-left: 70px;
+}
+/* container-fluid */
+/* ////////////// */
+/* col-lg-6 Button */
+.mybtn{margin: 2% 1%;}
+/* col-lg-6 Button */
+/* ////////////// */
+/* Navbar */
+/* ////////////// */
+/* ////////////// */
+/* features */
+#features{padding: 3% 6%;text-align: center;}
+
+/* features */
+/* ////////////// */
+/* ////////////// */

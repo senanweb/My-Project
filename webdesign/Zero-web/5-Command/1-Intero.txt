@@ -1,0 +1,12 @@
+--Shell
+--terminal
+--cmd
+--powershell
+------------------
+--ip config
+--move test
+--delete files
+--change setting
+--create many dir
+--edite system
+--create batch

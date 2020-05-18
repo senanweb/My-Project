@@ -1,0 +1,31 @@
+------------------------
+----------------
+-----------
+#setup ip static
+-----------
+----------------
+------------------------
+#To know the card network
+$nmcli d
+------------------------
+#Found the network
+$cd etc/sysconfig/network-scripts/ifcfg-enp0s3
+------------------------
+#change the permission to change ip
+$chmod 777 (name file)
+------------------------
+#To change ip
+$vi (name file)
+------------------------
+# this change
+bootproto=static 
+#this write
+ipaddr=
+netmask=
+gateway=
+dns1=8.8.8.8
+dns2=8.8.4.4
+------------------------
+#restart service
+#service network restart
+------------------------

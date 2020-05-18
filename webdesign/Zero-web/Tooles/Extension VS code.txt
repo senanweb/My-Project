@@ -1,0 +1,21 @@
+1- Auto close tag
+2- auto rename tag
+3- autoprefixer
+4- bracket pair color
+5- code spell
+6- css peek
+7- editorconfig
+8- html css support
+9- html tag wrapper
+10- icon fonts
+11- indent rainbow
+12- live server
+13- path Intellisense
+14- php debug
+15- php fortmatter
+16- php Intellisense
+17- prettier
+18- rainbow brackets
+19- rainbow tags
+20- sass
+21- vscode-icons

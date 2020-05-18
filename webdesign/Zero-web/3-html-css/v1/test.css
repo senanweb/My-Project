@@ -1,0 +1,55 @@
+
+.right {
+	width: 70%;
+	height: 250px;
+	margin-right: 5px;
+	float: right;
+	background: #dedede;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left {
+	width: 25%;
+	height: 250px;
+	margin-top: 10px;
+	margin-left: 5px;
+	background: #dedede;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.left img {
+	margin-left: 10px;
+}
+.butm {
+	width: 99%;
+	height: 150px;
+	margin-left: 5px;
+	margin-right: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.butm h2 {
+	text-align: center;
+}
+.contact {
+	width: 30%;
+	height: 50%;
+	margin-left: 5px;
+	margin-right: 5px;
+	background: cornflowerblue;
+	float: left;
+}
+.map {
+	width: 30%;
+	height: 50%;
+	margin-left: 5px;
+	margin-right: 5px;
+	background: rgb(190, 34, 34);
+	float: left;
+}
+.photo {
+	width: 30%;
+	height: 50%;
+	margin-left: 5px;
+	margin-right: 5px;
+	background: rgb(223, 226, 21);
+	float: left;
+}

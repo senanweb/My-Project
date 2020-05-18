@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../4-test-Html5/css/style.css"><!-- 6 -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- start-header(7) -->
+    <header class="my-header">
+        <h1>HTML-5</h1>
+    </header>
+    <!-- ////////// -->
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About-us</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <!-- (7) navigation -->
+    <!-- ////////// -->
+    <main>
+        <p>Welcome <span>Html-5</span> Course</p> <!-- no repeat -->
+    </main>
+    <!-- (9) Main -->
+    <!-- ////////// -->
+    <div class="post">
+        <article>
+            <header>
+                <h2>Html</h2>
+                <section>
+                    <h3>I finish Html</h3>
+                    <p>Html this about how you build web</p>
+                    <!-- (10)progress -->
+                    <div>
+                        HTML <progress value="9" max="10"></progress><br> 
+                        Code <progress></progress>
+                    </div>
+                </section>                
+            </header>
+        </article>
+        <article>
+            <header>
+                <h2>CSS</h2>
+                <section>
+                    <h3>I finish Css</p>
+                    <p>Css how you make the color</p>
+                    <!-- (10)progress -->
+                    <div>
+                        Css <progress value="9" max="10"></progress><br>
+                        Code <progress></progress>
+                    </div>
+                </section>
+            </header>
+        </article>
+        <article>   
+            <header>
+                <h2>Html-5</h2>
+                <section>
+                    <h3>I work with Html-5 New</p>
+                    <p>Html new version</p>
+                </section>
+            </header>
+        </article>
+    </div>
+    <!-- (8) Articles -->
+    <!-- ////////// -->
+    <aside>
+        <section>
+            <h3>Categories</h3>
+            <ul>
+                <li>Pug</li>
+                <li>GitHub</li>
+                <li>Js</li>
+            </ul>
+        </section>
+        <section class="meters">
+            <h3>Performance</h3>
+            Cpu : <meter min="0" max="1" value=".3" low=".4"></meter>
+            <details> <!-- (11) details-->
+                <summary>What More</summary>
+                <ul>
+                    <li>Css-3</li>
+                    <li>Test-Html5 & Css3</li>
+                    <li>Test2-Html5 & Css3</li>
+                </ul>
+            </details>
+            
+        </section>
+    </aside>
+    <!-- (9) sidebar-->
+    <!-- ////////// -->
+    <div class="clearfix">
+    </div>
+    <!-- (9) clearfix  -->
+    <!-- ////////// -->
+    <!-- (12) figure  -->
+    <figure>
+        <img src="../4-test-Html5/elephant-660-480.jpg"
+             alt="Elephant at sunset">
+        <figcaption>An elephant at sunset</figcaption>
+    </figure>
+     <!-- (12) figure  --> 
+     <!-- ////////// -->
+     <!-- (13) time  -->
+     <p>The concert starts at <time datetime="2018-07-07T20:00:00">20:00</time>.</p>
+     <br>
+      <!-- (13) time  --> 
+     <!-- ////////// -->
+      <!-- (14) time  --> 
+      <label for="ice-cream-choice">Choose a flavor:</label>
+      <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+      <datalist id="ice-cream-flavors">
+          <option value="Chocolate">
+          <option value="Coconut">
+          <option value="Mint">
+          <option value="Strawberry">
+          <option value="Vanilla">
+      </datalist>
+      <br>
+      <!-- (14) time  --> 
+     <!-- ////////// -->
+      <!-- (15) time  -->
+      <br>
+     <form oninput="result.value= parseInt(age.value)*parseInt(days.value) + ' Dayes'">
+         <h3>your agr</h3>
+         <input type="text" name="age">
+         <input type="hidden" name="days" value="365">
+         <output name="result"></output>
+     </form>
+     <br>
+     <!-- (15) time  --> 
+     <!-- ////////// -->
+      <!-- (16) time  --> 
+      <audio controls>
+        <source src="viper.mp3" type="audio/mp3">
+        <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a> instead.</p>
+      </audio>
+     <br>
+     <!-- (16) time  --> 
+     <!-- ////////// -->
+      <!-- (17) time  --> 
+      <video controls width="400" height="400"
+        autoplay loop muted
+        poster="poster.png">
+        <source src="rabbit320.mp4" type="video/mp4">
+        <source src="rabbit320.webm" type="video/webm">
+        <p>Your browser doesn't support HTML video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
+      </video>
+      <br>
+     <!-- (17) time  --> 
+     <!-- ////////// -->
+      <!-- (18) time  --> 
+      <br>
+      <form action="" method="get" class="form-example">
+        <input type="color" name="theme" id="#070">
+        <input type="range" name="choose" max="10">
+        <input type="submit" value="send">
+      </form>
+      <br>
+     <!-- (18) time  --> 
+     <!-- ////////// -->
+      <!-- (19) time  --> 
+      <br>
+      <form >
+        <input type="email">
+        <input type="password">
+        <input type="submit" value="send">
+      </form>
+      <br>
+     <!-- (19) time  --> 
+     <!-- ////////// -->
+      <!-- (20) time  --> 
+      <br>
+      <form >
+        <input type="email">
+        <input type="password">
+        <input type="datetime-local">
+        <input type="date">
+        <input type="submit" value="send">
+      </form>
+      <br>
+     <!-- (20) time  --> 
+     <!-- ////////// -->
+      <!-- (21) time  --> 
+     
+     <!-- (21) time  --> 
+     <!-- ////////// -->
+      <!-- (22) time  --> 
+     
+     <!-- (22) time  --> 
+     <!-- ////////// -->
+      <!-- (23) time  --> 
+     
+     <!-- (23) time  --> 
+     <!-- ////////// -->
+      <!-- (24) time  --> 
+     
+     <!-- (24) time  --> 
+     <!-- ////////// -->
+      <!-- (25) time  --> 
+     
+     <!-- (25) time  --> 
+     <!-- ////////// -->
+      <!-- (26) time  --> 
+     
+     <!-- (26) time  --> 
+     <!-- ////////// -->
+      <!-- (27) time  --> 
+     
+     <!-- (27) time  --> 
+     <!-- ////////// -->
+      <!-- (28) time  --> 
+     
+     <!-- (28) time  --> 
+     <!-- ////////// -->
+      <!-- (29) time  --> 
+     
+     <!-- (29) time  --> 
+     <!-- ////////// -->
+      <!-- (30) time  --> 
+     
+     <!-- (30) time  --> 
+     <!-- ////////// -->
+      <!-- (31) time  --> 
+     
+     <!-- (31) time  --> 
+     <!-- ////////// -->
+      <!-- (32) time  --> 
+     
+     <!-- (32) time  --> 
+     <!-- ////////// -->
+      <!-- (33) time  --> 
+     
+     <!-- (33) time  --> 
+     <!-- ////////// -->
+      <!-- (34) time  --> 
+     
+     <!-- (34) time  --> 
+     <!-- ////////// -->
+      <!-- (35) time  --> 
+     
+     <!-- (35) time  --> 
+     <!-- ////////// -->
+      <!-- (36) time  --> 
+     
+     <!-- (36) time  --> 
+     <!-- ////////// -->
+     <hr>
+     <br>
+     <!-- (8) Footer -->    
+    <footer>
+        <p></p>
+        copyright 2019 &copy; All Right Reserved
+    </footer>
+    <!-- (8) Footer -->        
+    <hr>    
+    <script src=""></script><!-- 6 -->
+</body>

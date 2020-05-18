@@ -1,0 +1,63 @@
+* {
+  font-family: century Gothic;
+}
+.l-main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/photo-1.jfif); /* here must change the photo */
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+ul {
+  list-style: none;
+  float: right;
+  margin-right: 10px;
+}
+li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: thick double white transparent;
+}
+ul li a:hover {
+  transition: 0.5s ease;
+  border-radius: 10px 100px / 120px;
+  background-color: white;
+  color: #000;
+}
+.logo img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 5px 5px;
+}
+.sub-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sub-name h1 {
+  color: white;
+  font-size: 70px;
+}
+.button {
+  position: absolute;
+  top: 400px;
+  left: 637px;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  border: 1px solid #fff;
+  padding: 4px 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.8s ease;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}

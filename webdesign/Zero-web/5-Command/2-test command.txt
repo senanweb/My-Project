@@ -1,0 +1,10 @@
+------------------
+--use the cmder
+------------------
+--- in windows ---
+-- color 0 4 --this for change the color in background and font
+-- title xxx -- change title wind
+-- xx explorer. -- view folder
+-- cls --clear wind
+-- dir -- show folder
+

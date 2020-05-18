@@ -1,0 +1,98 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.top-container {
+  background: #eaf6f6;
+}
+.top-container h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3em;
+  color: #66bfbf;
+  font-weight: 2em;
+}
+.top-container h2 {
+  color: #66bfbf;
+  font-weight: normal;
+  line-height: 2em;
+}
+.top-container p {
+  font-family: 'Montserrat', sans-serif;
+}
+.top-container .img-2 {
+  position: absolute;
+}
+.top-container .img-3 {
+  margin-top: 120px;
+  position: static;
+}
+/* 
+--------------
+---------------------
+--------------
+ */
+.middle-container h2 {
+  color: #66bfbf;
+}
+.middle-container h3 {
+  color: #11999e;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+.skill-row .my-set {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+.skill-row .my-ok {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+.skill-row p {
+  text-align: left;
+  line-height: 2;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 7%;
+  height: 0px;
+  border-color: gray;
+  border-width: 4px;
+}
+.contact-me .btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+/* 
+--------------
+---------------------
+--------------
+ */
+.bottom-container {
+  background: #66bfbf;
+  height: 100px;
+  padding: 25px;
+}
+
+.bottom-container a {
+  color: #2298dd;
+  margin-top: 30px;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.bottom-container a:hover{color: #eaf6f6;}
+.bottom-container p{color: #eaf6f6; padding: 0px;}

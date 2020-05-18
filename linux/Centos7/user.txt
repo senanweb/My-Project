@@ -1,0 +1,15 @@
+------------------------
+----------------
+-----------
+#Add users
+-----------
+----------------
+------------------------
+#Add new user
+$sudo useradd (name)
+------------------------
+# Create password
+$sudo passwd (name)
+------------------------
+# Create ssh Folder
+$sudo mkdir /home/(your name)/.ssh
