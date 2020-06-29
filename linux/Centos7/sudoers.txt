@@ -1,9 +1,0 @@
-------------------------
-----------------
------------
-#permission users
------------
-----------------
-------------------------
-# To give permission root to users must used this
-$ vi /etc/sudoers

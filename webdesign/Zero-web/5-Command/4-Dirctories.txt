@@ -1,8 +1,0 @@
---move xxx ccc = move folder to anther
---mv           = same move
--- mv xx ..\   = back in same position
--- mv xx \     = move to dir c:\
--- mv xx \cc   = move to anther dir D:\
---cp -r xx cc  = copy with contanier
---rm -r xx     = remove with contanier
---rm -d xx     = empty

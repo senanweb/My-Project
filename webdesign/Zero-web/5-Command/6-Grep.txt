@@ -1,5 +1,0 @@
---search for file--
---grep "xxx" = in file
---grep "x" -r = in folder and file
---grep "x" -r -l = make list for file ---> and for security-- serach for txt hacker
---grep "x" 

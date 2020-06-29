@@ -1,8 +1,0 @@
-S1#en
-S1#conf t
-S1(config)#interface vlan1
-S1(config-if)#ip address 192.168.1.1 255.255.255.192
-S1(config-if)#no shut
-S1#wr
-Building configuration...
-[OK]

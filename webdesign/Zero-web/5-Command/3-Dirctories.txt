@@ -1,6 +1,0 @@
---cd .. = back space one
---mkdir = create dir
---ls = view
---mkdir " " = create dir with space
---mkdir ..\test =create folder in father folder
---mkdir c:\xx\xx = create folder in spcial folder

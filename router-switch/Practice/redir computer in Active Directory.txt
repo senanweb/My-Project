@@ -1,3 +1,0 @@
-to change the new computers in Active Dirctory from OU to OU new must write this code
-
--- redircmp xxxxxxxxxxxx (press inter)
