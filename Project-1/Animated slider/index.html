@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated slider</title>
+    <link rel="stylesheet" href="../Animated slider/Css/normalize.css">
+    <link rel="stylesheet" href="../Animated slider/Css/style.css">
+</head>
+<body onload="slider()">
+    <div class="banner">
+        <div class="slider">
+            <img id="slidImg" src="../Animated slider/Images/sunrise.jpg" alt="">
+        </div>
+        <div class="over">
+            <div class="logo">
+                <img src="../Animated slider/Images/logo.png" alt="">
+            </div>
+            <div class="navbar">
+                <div class="icon">
+                    <img src="../Animated slider/Images/gear.png" alt="">
+                    <img src="../Animated slider/Images/gps.png" alt="">
+                    <img src="../Animated slider/Images/smartphone.png" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <h1>Start</h1>
+                <h3>Welcome</h3>
+                <div>
+                    <button type="button" >More</button>
+                    <button class="btn" type="button" >less</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- scripts -->
+    <script src="../Animated slider/js/jquery-3.5.1.min.js" ></script>
+    <script src="../Animated slider/js/style.js" ></script>
+    <!-- <script>
+        var slide = document.getElementById ("slidImg")
+var images = new Array (
+    "../Animated slider/Images/kakashi.jpg",
+    "naruto.jpg",
+    "sunrise.jpg" ,
+    "wall.jpg"
+                        );
+var len = images.length;
+var i = 0;
+function slider (){
+    if(i > len-1) {i =0}
+    slide.src = images[i];
+    i++
+    setTimeout('slider', 3000);
+}
+    </script> -->
+</body>
+</html>
