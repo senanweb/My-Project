@@ -1,0 +1,15 @@
+* {margin: 0; padding: 0;}
+.hero {width: 80%;height: 500px;position: relative;margin: 75px auto;overflow: hidden;} /*to hidden the space between tools and the test*/
+.btn {display: flex;border-bottom: 1px solid #ccc;}
+.btn button {background: transparent; border: none;outline: none;cursor: pointer;padding: 15px 15px; margin-right: 35px;font-size: 20px;font-weight: bold;}
+.btn .fab {margin-right: 10px;}
+.btn button:hover .fab {color: #ff7846;}
+
+.slider {display: flex; justify-content: center;align-items: center; margin: 5% auto;position: absolute; transform: translateX(100%);transition: 0.3s;}
+.content-right {flex-basis: 50%; height: 200px;}
+.content-right p {font-size: 15px;padding: 15px 0;}
+.content-right a {width: 150px; display: block;padding: 8px 5px; border-radius: 15px; text-decoration: none;background-color: #ff7846;color: #fff;text-align: center;}
+.content-left {flex-basis: 50%;text-align: center;}
+.content-left img {width: 350px;}
+#layout1 {transform: translateX(0);}
+#html {color: #ff7846;}
