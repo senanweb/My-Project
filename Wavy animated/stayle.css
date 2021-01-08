@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    text-align: center;
+    line-height: 1.4;
+    width: 100%;
+}
+.code,html,body{
+    height: 100vh;
+}
+.content{
+    color: white;
+    font-weight: 300;
+    padding: 0 2rem;
+}
+.footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.content, .footer{
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+.code, .content{
+    flex-direction: column;
+}
+.footer{
+    flex-wrap: wrap;
+    max-width: 600px;   
+    
+    animation: chang 0.5s 0.5s forwards;
+}
+.code, .content, .title{
+    margin: 0;
+}
+.footer a{
+    text-decoration: none;
+    width: 30%;
+    padding: 12px 18px;
+    font-size: 16px;
+    margin: 20px auto 0 auto;
+    cursor: pointer;
+    color: white;
+    border: 2px solid;
+    border-radius: 99em;
+    outline: none;
+    transition: all 0.3s;
+}
+.footer a:hover {
+    background-color: white;
+    color: #222;
+    border-color: white;
+}
+.text,.title{
+    backface-visibility: hidden;
+}
+.title{
+    font-size: 6.4rem;
+    font-weight: 400;
+    animation: change 0.5s forwards;
+    color: white;
+    opacity: 0;
+}
+.text{
+    max-width: 77rem;
+    font-weight: 400;
+    padding: 2rem 0;
+    font-size: 1.3rem;
+    color: white;
+    animation: change 0.5s 0.3s forwards;
+}
+.wavy{
+    opacity: 1.5;
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    background: #000;
+    margin-left: -300px;
+    transform-origin: 50% 48%;
+    border-radius: 46%;
+    animation: wave 12s infinite linear;
+    pointer-events: none;
+}
+.wavy2{
+    
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    background: rgb(114, 109, 109);
+    margin-left: -300px;
+    transform-origin: 50% 48%;
+    border-radius: 46%;
+   
+    opacity: 1;
+    animation: wave 28s infinite linear;
+    
+}
+.wavy3{
+    opacity: 0.5;
+    animation: wave 20s infinite linear;
+    
+}
+.wavy{background: #000;}
+.code{
+    position: relative;
+    background-color: #74b9ff;
+    z-index:999;
+}
+@keyframes change {
+    from {
+        transform: translateY(5rem);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes wave{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(350deg);
+    }
+}
